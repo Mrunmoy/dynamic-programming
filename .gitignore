@@ -43,7 +43,7 @@
 *.pdb
 cmake-build-debug/
 build/*
-.idea/*
+.idea/
 
 # Kernel Module Compile Results
 *.mod*
