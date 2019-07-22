@@ -90,8 +90,8 @@ int main() {
 
     auto *test = new TestFixture();
 
-    test->Test(9, Solution().cut_rod_memoized(vector<int> {0, 2, 4, 7, 8}, 15));
-    test->Test(9, Solution().cut_rod_bottom_up(vector<int> {0, 2, 4, 7, 8}, 15));
+    test->Test(9, Solution().cut_rod_memoized(vector<int> {0, 2, 4, 7, 8}, 4));
+    test->Test(9, Solution().cut_rod_bottom_up(vector<int> {0, 2, 4, 7, 8}, 4));
 
     return 0;
 }
